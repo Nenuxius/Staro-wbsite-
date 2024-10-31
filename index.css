@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4b6cb7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+#storyForm input, #storyForm textarea {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    background-color: #4b6cb7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a57a7;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4b6cb7;
+    color: white;
+}

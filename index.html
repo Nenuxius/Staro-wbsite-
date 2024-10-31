@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staro - Share Your Stories</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Staro</h1>
+        <p>Your platform to share and explore stories from around the world.</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#upload">Upload Story</a>
+            <a href="#explore">Explore Stories</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Staro</h2>
+            <p>Staro is a platform designed for writers and storytellers to upload, write, and share their stories. From fiction and poetry to personal essays, discover a world of creativity here.</p>
+        </section>
+
+        <section id="upload">
+            <h2>Upload Your Story</h2>
+            <form id="storyForm">
+                <label for="title">Story Title:</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="author">Author Name:</label>
+                <input type="text" id="author" name="author" required>
+
+                <label for="content">Your Story:</label>
+                <textarea id="content" name="content" rows="8" required></textarea>
+                
+                <button type="button" onclick="submitStory()">Submit Story</button>
+            </form>
+        </section>
+
+        <section id="explore">
+            <h2>Explore Stories</h2>
+            <div id="storyList">
+                <!-- Stories will appear here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Staro. All Rights Reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
